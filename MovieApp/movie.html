@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movies App</h1>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Search movies..." autocomplete="off">
+            <button type="submit">Search</button>
+        </form>
+        <div id="sortOptions">
+            <button onclick="sortMovies('popularity')">Sort by Popularity</button>
+            <button onclick="sortMovies('release_date')">Sort by Release Date</button>
+            <button onclick="sortMovies('vote_average')">Sort by Rating</button>
+        </div>
+        <div id="results" class="grid"></div>
+    </div>
+
+  
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div id="movieModalBody"></div>
+        </div>
+    </div>
+
+    <div id="watchlistOptions">
+        <button onclick="showWatchlist()">Watchlist</button>
+    </div>
+    
+
+    <script src="movie.js"></script>
+</body>
+</html>
