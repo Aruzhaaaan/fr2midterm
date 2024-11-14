@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(246, 164, 183);
+}
+
+.container{
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 80px;
+}
+
+#results {
+    margin-top: 30px;   
+}
+
+.btn{
+    background-color:rgb(194, 120, 189);
+}
+
+.favorite-btn {
+    background-color: #ffd700;
+    color: #000;
+    margin-top: 5px;
+    border: none;
+}
+
+.favorite-btn.active {
+    background-color: #ff4500;
+    color: #fff;
+}
