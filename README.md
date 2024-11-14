@@ -22,10 +22,6 @@ index.html - The main HTML structure of the app.
 movie.css - Styles for the app.
 movie.js - JavaScript functionality including fetching movies, displaying details, sorting, and managing the watchlist.
 
-API Reference
-The app uses The Movie Database (TMDb) API to fetch movie data. Key endpoints used:
-Search: https://api.themoviedb.org/3/search/movie
-
-Technologies Used
+Technologies Used:
 HTML, CSS, JavaScript for the front end
 TMDb API for movie data
