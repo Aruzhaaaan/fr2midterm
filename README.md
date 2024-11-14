@@ -25,7 +25,6 @@ movie.js - JavaScript functionality including fetching movies, displaying detail
 API Reference
 The app uses The Movie Database (TMDb) API to fetch movie data. Key endpoints used:
 Search: https://api.themoviedb.org/3/search/movie
-Movie Details: https://api.themoviedb.org/3/movie/{movie_id}
 Technologies Used
 HTML, CSS, JavaScript for the front end
 TMDb API for movie data
